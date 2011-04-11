@@ -1,0 +1,11 @@
+## Doctrine Configuration
+doctrine:
+   dbal:
+       dbname:   test
+       user:     test
+       password: test
+       logging:  %kernel.debug%
+   orm:
+       auto_generate_proxy_classes: %kernel.debug%
+       mappings:
+           LiveTestBundle: ~

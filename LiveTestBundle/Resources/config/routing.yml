@@ -1,0 +1,15 @@
+livetestgetprofilefor:
+    pattern:  /getprofilefor/{url}
+    defaults: { _controller: LiveTestBundle:Default:getprofilefor }
+    requirements:
+        _method: GET
+
+livetesttest:
+    pattern:  /test
+    defaults: { _controller: LiveTestBundle:Default:test}
+    requirements:
+        _method: GET
+
+livetesthelp:
+    pattern:  /help
+    defaults: { _controller: LiveTestBundle:Default:help }
